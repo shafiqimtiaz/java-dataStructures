@@ -1,3 +1,3 @@
-##JAVA Data Structures
+## JAVA Data Structures
 
-Practice Practice Practice
+> Practice Practice Practice
