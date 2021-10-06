@@ -1,3 +1,7 @@
 {
-  "java.project.sourcePaths": ["Bubble Sort", "Selection Sort"]
+  "java.project.sourcePaths": [
+    "Selection Sort",
+    "Bubble Sort",
+    "Insertion Sort"
+  ]
 }
