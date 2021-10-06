@@ -1,3 +1,5 @@
+package com.datastructures.shellsort;
+
 public class shellSort {
 
     public static void main(String[] args) {
