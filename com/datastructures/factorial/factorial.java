@@ -3,10 +3,8 @@ package com.datastructures.factorial;
 public class factorial {
 
     public static void main(String[] args) {
-
         System.out.println(iterativeFactorial(10));
         System.out.println(recursiveFactorial(10));
-
     }
 
     public static int recursiveFactorial(int num) {
@@ -26,6 +24,4 @@ public class factorial {
         }
         return fact;
     }
-
-
 }
