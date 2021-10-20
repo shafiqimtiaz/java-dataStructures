@@ -1,4 +1,4 @@
-package shafiq.q4;
+package com.datastructures.expressionTree;
 
 import java.io.*;
 import java.util.Scanner;
@@ -81,22 +81,22 @@ public class binTree2 {
             for (int i = 0; i < input.length(); i++) {
                 char ch = input.charAt(i);
                 switch (ch) {
-                    case '+':
-                    case '-':
-                        gotOperator(ch, 1);
-                        break;
-                    case '*':
-                    case '/':
-                        gotOperator(ch, 2);
-                        break;
-                    case '(':
-                        s.push(ch);
-                        break;
-                    case ')':
-                        gotParenthesis();
-                        break;
-                    default:
-                        output = output + ch;
+                case '+':
+                case '-':
+                    gotOperator(ch, 1);
+                    break;
+                case '*':
+                case '/':
+                    gotOperator(ch, 2);
+                    break;
+                case '(':
+                    s.push(ch);
+                    break;
+                case ')':
+                    gotParenthesis();
+                    break;
+                default:
+                    output = output + ch;
                 }
             }
             while (!s.isEmpty())
@@ -172,20 +172,20 @@ public class binTree2 {
 
         public void traverse(int type) {
             switch (type) {
-                case 1:
-                    System.out.print("Preorder Traversal:    ");
-                    preOrder(root);
-                    break;
-                case 2:
-                    System.out.print("Inorder Traversal:     ");
-                    inOrder(root);
-                    break;
-                case 3:
-                    System.out.print("Postorder Traversal:   ");
-                    postOrder(root);
-                    break;
-                default:
-                    System.out.println("Invalid Choice");
+            case 1:
+                System.out.print("Preorder Traversal:    ");
+                preOrder(root);
+                break;
+            case 2:
+                System.out.print("Inorder Traversal:     ");
+                inOrder(root);
+                break;
+            case 3:
+                System.out.print("Postorder Traversal:   ");
+                postOrder(root);
+                break;
+            default:
+                System.out.println("Invalid Choice");
             }
         }
 

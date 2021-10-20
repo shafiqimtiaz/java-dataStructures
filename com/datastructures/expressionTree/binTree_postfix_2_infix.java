@@ -1,4 +1,4 @@
-package shafiq.q4;
+package com.datastructures.expressionTree;
 
 // Java program to construct an expression tree
 

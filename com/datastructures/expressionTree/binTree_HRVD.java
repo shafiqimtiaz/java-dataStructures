@@ -1,4 +1,4 @@
-package shafiq.q4;
+package com.datastructures.expressionTree;
 
 import java.util.*;
 
@@ -83,18 +83,18 @@ public class binTree_HRVD {
             // interior node -- an operator
             // first the node itself (the root of the subtree)
             switch (root.contents) {
-                case '+':
-                    System.out.print("add");
-                    break;
-                case '-':
-                    System.out.print("subtr");
-                    break;
-                case '*':
-                    System.out.print("mult");
-                    break;
-                case '/':
-                    System.out.print("divide");
-                    break;
+            case '+':
+                System.out.print("add");
+                break;
+            case '-':
+                System.out.print("subtr");
+                break;
+            case '*':
+                System.out.print("mult");
+                break;
+            case '/':
+                System.out.print("divide");
+                break;
             }
 
             // then the left and right subtrees
@@ -132,18 +132,18 @@ public class binTree_HRVD {
 
             printMargin(margin);
             switch (root.contents) {
-                case '+':
-                    System.out.print("add above");
-                    break;
-                case '-':
-                    System.out.print("subtract above");
-                    break;
-                case '*':
-                    System.out.print("multiply above");
-                    break;
-                case '/':
-                    System.out.print("divide above");
-                    break;
+            case '+':
+                System.out.print("add above");
+                break;
+            case '-':
+                System.out.print("subtract above");
+                break;
+            case '*':
+                System.out.print("multiply above");
+                break;
+            case '/':
+                System.out.print("divide above");
+                break;
             }
         }
     }

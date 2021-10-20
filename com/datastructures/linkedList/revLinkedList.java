@@ -1,4 +1,4 @@
-package shafiq.q3;
+package com.datastructures.linkedList;
 
 import java.security.PublicKey;
 import java.util.*;

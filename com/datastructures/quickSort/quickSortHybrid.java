@@ -1,4 +1,4 @@
-package shafiq.q5;
+package com.datastructures.quickSort;
 
 import java.util.*;
 

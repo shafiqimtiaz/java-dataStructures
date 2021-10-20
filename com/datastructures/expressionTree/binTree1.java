@@ -1,4 +1,4 @@
-package shafiq.q4;
+package com.datastructures.expressionTree;
 
 public class binTree1 {
 
