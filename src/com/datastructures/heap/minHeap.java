@@ -1,4 +1,4 @@
-package datastructures.heap;
+package datastructures.Heap;
 
 import java.util.Arrays;
 
@@ -60,8 +60,7 @@ public class minHeap {
     private void minHeapify(int i) {
         // If the node is a non-leaf node and any of its child is smaller
         if (!isLeaf(i)) {
-            if (Heap[i] > Heap[leftChild(i)] ||
-                    Heap[i] > Heap[rightChild(i)]) {
+            if (Heap[i] > Heap[leftChild(i)] || Heap[i] > Heap[rightChild(i)]) {
                 if (Heap[leftChild(i)] < Heap[rightChild(i)]) {
                     swap(i, leftChild(i));
                     minHeapify(leftChild(i));

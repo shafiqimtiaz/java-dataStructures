@@ -1,4 +1,4 @@
-package datastructures.quickSort;
+package datastructures.QuickSort;
 
 import java.util.*;
 

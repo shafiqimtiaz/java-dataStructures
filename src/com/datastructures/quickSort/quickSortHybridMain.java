@@ -1,4 +1,4 @@
-package datastructures.quickSort;
+package datastructures.QuickSort;
 
 public class quickSortHybridMain {
 

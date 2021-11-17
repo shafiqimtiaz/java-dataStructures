@@ -1,4 +1,4 @@
-package datastructures.bruteForceSearch;
+package com.datastructures.BruteForceSearch;
 
 import java.util.*;
 

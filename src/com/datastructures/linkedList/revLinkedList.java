@@ -1,4 +1,4 @@
-package datastructures.linkedList;
+package datastructures.LinkedList;
 
 public class revLinkedList<E> {
 

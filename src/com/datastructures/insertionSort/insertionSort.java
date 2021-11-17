@@ -1,4 +1,4 @@
-package datastructures.insertionSort;
+package datastructures.InsertionSort;
 
 public class insertionSort {
 

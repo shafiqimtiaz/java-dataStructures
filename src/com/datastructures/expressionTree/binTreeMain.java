@@ -1,4 +1,4 @@
-package datastructures.expressionTree;
+package datastructures.ExpressionTree;
 
 public class binTreeMain {
 

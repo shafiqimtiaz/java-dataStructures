@@ -1,4 +1,4 @@
-package datastructures.compression;
+package datastructures.Compression;
 //Lempel Ziv Welch
 
 import java.util.*;

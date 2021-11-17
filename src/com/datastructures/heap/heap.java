@@ -1,11 +1,11 @@
-package datastructures.heap;
+package datastructures.Heap;
 
 public class heap {
 
-	private int[] heap;
+    private int[] heap;
     private int size;
 
-    public Heap(int capacity) {
+    public void Heap(int capacity) {
         heap = new int[capacity];
     }
 

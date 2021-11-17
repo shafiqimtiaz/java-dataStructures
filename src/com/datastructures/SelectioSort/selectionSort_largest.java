@@ -1,4 +1,4 @@
-package datastructures.selectionSort;
+package datastructures.SelectioSort;
 
 public class selectionSort_largest {
 

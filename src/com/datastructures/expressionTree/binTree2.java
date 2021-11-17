@@ -1,4 +1,4 @@
-package datastructures.expressionTree;
+package datastructures.ExpressionTree;
 
 import java.io.*;
 import java.util.Scanner;

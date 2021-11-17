@@ -1,4 +1,4 @@
-package datastructures.shellsort;
+package datastructures.ShellSort;
 
 public class shellSort {
 

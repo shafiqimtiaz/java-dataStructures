@@ -1,4 +1,4 @@
-package datastructures.expressionTree;
+package datastructures.ExpressionTree;
 
 // Java program to construct an expression tree
 
